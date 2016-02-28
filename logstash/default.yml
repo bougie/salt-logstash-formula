@@ -19,7 +19,7 @@ CentOS:
 FreeBSD:
     package: logstash
     service: logstash
-    config_file: /usr/local/etc/logstash.conf
+    config_file: /usr/local/etc/logstash/logstash.conf
 {% endload %}
 
 {% load_yaml as rawmap %}
