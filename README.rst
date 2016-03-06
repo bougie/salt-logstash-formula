@@ -6,6 +6,11 @@ salt-logstash-formula
     See the full `Salt Formulas installation and usage instructions
     <http://docs.saltstack.com/en/latest/topics/development/conventions/formulas.html>`_.
 
+Install
+=======
+
+To finish the installation, you have to edit yourself the config file.
+
 Available states
 ================
 

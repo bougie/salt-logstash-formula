@@ -8,18 +8,18 @@ Debian:
     gpg_url: "https://packages.elasticsearch.org/GPG-KEY-elasticsearch"
     package: logstash
     service: logstash
-    config_file: /etc/logstash/logstash.conf
+    config_file: /etc/logstash/logstash.conf.example
 CentOS:
     repo_url: "http://packages.elastic.co/logstash/{{major_version}}/centos"
     repo_file: /etc/yum.repos.d/logstash.repo
     gpg_url: "https://packages.elasticsearch.org/GPG-KEY-elasticsearch"
     package: logstash
     service: logstash
-    config_file: /etc/logstash/logstash.conf
+    config_file: /etc/logstash/logstash.conf.example
 FreeBSD:
     package: logstash
     service: logstash
-    config_file: /usr/local/etc/logstash/logstash.conf
+    config_file: /usr/local/etc/logstash/logstash.conf.example
 {% endload %}
 
 {% load_yaml as rawmap %}
